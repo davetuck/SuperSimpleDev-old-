@@ -1,6 +1,6 @@
 button {
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .button-div {
@@ -8,16 +8,11 @@ button {
   flex-direction: column;
 }
 
-.wrapper {
-  margin-left: 10px;
-}
-
 .youtube {
   background-color: rgb(198, 0, 0);
   color: white;
   border: none;
-  height: 36px;
-  width: 120px;
+  padding: 10px 20px;
   border-radius: 2px;
   font-size: 16px;
   transition: opacity 300ms;
@@ -34,12 +29,12 @@ button {
 .join {
   font-size: 16px;
   background-color: white;
-  height: 36px;
-  width: 72px;
+  padding: 10px 20px;
   border-color: rgb(0, 100, 214);
   color: rgb(0, 100, 214);
   border-radius: 4px;
   transition: background-color 350ms, opacity 350ms, color 350ms;
+  margin-top: 10px;
 }
 
 .join:hover {
@@ -62,6 +57,7 @@ button {
   width: 80px;
   border-radius: 36px;
   transition: background-color 350ms, box-shadow 450ms;
+  margin-top: 10px;
 }
 
 .tweet:hover {
@@ -81,6 +77,7 @@ button {
   border: none;
   font-size: 15px;
   transition: 350ms;
+  margin-top: 10px;
 }
 
 .uber:active {
@@ -97,6 +94,7 @@ button {
   height: 36px;
   width: 192px;
   border-radius: calc(192px / 2);
+  margin-top: 10px;
 }
 
 .amazon:hover {
@@ -116,6 +114,7 @@ button {
   border-radius: 6px;
   font-weight: bold;
   transition: box-shadow 350ms;
+  margin-top: 10px;
 }
 
 .github:hover {
@@ -128,6 +127,7 @@ button {
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .bootstrap {
@@ -157,6 +157,7 @@ button {
   height: 44px;
   border-radius: calc(44px / 2);
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .linkedin {
@@ -214,4 +215,69 @@ p {
 
 .amazon-buynow:active {
   opacity: .75;
+}
+
+.back-button, .next-button {
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin-right: 10px;
+  padding: 8px 8px;
+}
+
+.next-button {
+  margin-left: 10px;
+}
+
+.a, .b, .c, .d, .e {
+  margin: 5px;
+}
+
+.a:active, .b:active, .c:active, .d:active, .e:active {
+  color: rgb(134, 73, 239);
+}
+
+.stretch-button {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 8px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: 450ms;
+}
+
+.stretch-button:hover {
+  padding: 20px 30px;
+  box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.25);
+  margin-bottom: 6px;
+}
+
+.shadow-button {
+  background: green;
+  color: white;
+  padding: 8px 15px; 
+  border: none;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.40);
+}
+
+.shadow-button:active {
+  margin-left: 3px;
+  margin-top: 18px;
+  margin-bottom: -3px;
+  box-shadow: none;
+}
+
+.one-button, .two-button, .three-button {
+  color: white;
+  background-color: green;
+  padding: 10px 15px;
+  border: none;
+  margin: 15px;
+  transition: 300ms;
+}
+
+.one-button:hover, .two-button:hover, .three-button:hover {
+  padding: 10px 30px;
+  margin: 0;
 }
