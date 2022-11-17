@@ -5,89 +5,75 @@
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+/* HEADER */
 
-.left-section {
-  margin-right: 20px;
+header {
+  height: 57px;
+  margin-bottom: 20px;
+  vertical-align: middle;
 }
 
 .hamburger-menu {
   height: 24px;
-  margin: 0 24px 0 24px;
-  cursor: pointer;
-}
-
-.youtube-logo {
-  display: inline-block;
-  height: 20px;
-  align-items: center;
-  cursor: pointer;
-}
-
-.middle-section {
-  display: flex;
-  margin-left: 60px;
-  width: 40%;
-}
-
-.search-bar {
-  color: rgb(0, 0, 0);
-  height: 40px;
-  border: 1px solid rgb(204, 204, 204);
-  font-size: 16px;
-  border-radius: 2px;
-  padding: 1px 2px 1px 12px;
-  width: 100%;
-  max-width: 358px;
-}
-
-.search-button {
-  display: inline-block;
-  padding: 5px 20px;
-  height: 40px;
-  border: 1px solid rgb(204, 204, 204);
-  cursor: pointer;
-}
-
-.search-image {
-  height: 24px;
   width: 24px;
+  margin: 0 24px;
+  vertical-align: middle;
 }
 
-
-.voice-search-button {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  border: none;
-  margin-left: 10px;
+.logo {
+   width: 90px;
+   height: 20px;
+   vertical-align: middle;
 }
 
-.voice-search-icon {
-  height: 24px;
-  width: 24px;
-}
+/* BODY */
 
-.thumbnail {
-  width: 278px;
-  display: block;
-}
-
-.video-title {
-  width: 300px;
-}
-
-.video-author, 
-.video-stats {
-  display: block;
-}
-
-.video-preview {
-  width: 300px;
+.video__card {
+  width: 20%;
   display: inline-block;
   vertical-align: top;
+  margin-right: 10px;
+}
+
+.video__card--1 {
+  margin-left: 5px;
+}
+
+.video__thumbnail {
+  width: 100%;
+}
+
+.video__info {
+  margin-top: 12px;
+}
+
+.video__channel-photo {
+  display: inline-block;
+  vertical-align: top;
+  align-items: flex-start;
+}
+
+.video__profile-photo {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.video__text {
+  display: inline-block;
+  width: 83%;
+}
+
+.video__title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.video__author {
+  font-size: 12px;
+}
+
+.video__stats {
+  font-size: 12px;
 }
