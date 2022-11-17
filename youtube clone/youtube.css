@@ -93,13 +93,46 @@ header {
   width: 32px;
 }
 
-/* BODY */
+/* SIDEBAR */
+
+.sidebar {
+  display: inline-block;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  width: 74px;
+}
+
+.nav-image {
+  height: 24px;
+  width: 24px;
+}
+
+div {
+  display: block;
+}
+
+/* MAIN */
+
+main {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  background-color: rgb(247, 247, 247);
+}
+
+.video-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
 
 .video__card {
-  width: 20%;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
+  width: 23%;
 }
 
 .video__card--1 {
